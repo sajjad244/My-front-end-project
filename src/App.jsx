@@ -13,17 +13,28 @@ import PastProjects from "./Components/PastProjects/PastProjects";
 const App = () => {
   return (
     <div className="space-y-2">
+      {/* done */}
       <Navbar></Navbar>
-      <Hero></Hero>
+      {/*  */}
+      {/* <Hero></Hero> */}
+      {/*  */}
       <LoanProducts></LoanProducts>
-      <Locations></Locations>
-      <ClientReviews></ClientReviews>
-      <PastProjects></PastProjects>
-      <InterestedWorkingWithUs></InterestedWorkingWithUs>
-      <OtherResources></OtherResources>
-      <GetPreApprovedOnline></GetPreApprovedOnline>
-      <AboutUs></AboutUs>
-      <Footer></Footer>
+      {/*  */}
+      {/* <Locations></Locations> */}
+      {/*  */}
+      {/* <ClientReviews></ClientReviews> */}
+      {/*  */}
+      {/* <PastProjects></PastProjects> */}
+      {/*  */}
+      {/* <InterestedWorkingWithUs></InterestedWorkingWithUs> */}
+      {/*  */}
+      {/* <OtherResources></OtherResources> */}
+      {/*  */}
+      {/* <GetPreApprovedOnline></GetPreApprovedOnline> */}
+      {/*  */}
+      {/* <AboutUs></AboutUs> */}
+      {/*  */}
+      {/* <Footer></Footer> */}
     </div>
   );
 };
