@@ -10,11 +10,11 @@ import group1 from "../../assets/Group.svg";
 
 const LoanProducts = () => {
   return (
-    <div>
-      <h1 className="text-4xl md:text-5xl font-bold text-center text-[#165831] mt-20 mb-20">
+    <div className="container mx-auto max-w-7xl">
+      <h1 className="text-4xl md:text-5xl font-bold text-center text-[#165831] mt-20 mb-20 container mx-auto">
         Loan Products
       </h1>
-      <div className="flex flex-wrap justify-center gap-10 p-2">
+      <div className="flex flex-wrap justify-center gap-14 p-2">
         {/* card-1 */}
         <div className="relative max-w-sm w-full text-white bg-[#165831] rounded-2xl overflow-hidden shadow-2xl p-6">
           {/* Content------>>> */}

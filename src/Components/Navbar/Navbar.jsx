@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm px-4 lg:px-12">
+    <div className="navbar gap-10 container mx-auto max-w-7xl">
       <div className="navbar-start">
         <a className="text-3xl lg:text-4xl font-black uppercase">
           <span className="text-[#165831]">Ridge</span>
@@ -10,7 +10,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal gap-8 text-base lg:text-xl items-center">
+        <ul className="menu menu-horizontal gap-4 text-base lg:text-xl items-center">
           <li>
             <a>Fix and Flip</a>
           </li>
@@ -27,7 +27,7 @@ const Navbar = () => {
             <a>Resources</a>
           </li>
           <li>
-            <a className="btn bg-[#165831] text-white px-4 py-2 text-sm lg:text-base shadow-lg">
+            <a className="btn bg-[#165831] text-white px-4 py-2 text-sm lg:text-base shadow-lg rounded-lg">
               Get Approved Online
             </a>
           </li>
@@ -71,7 +71,7 @@ const Navbar = () => {
               <a>Resources</a>
             </li>
             <li>
-              <a className="btn bg-[#165831] text-white mt-2 text-sm shadow-lg">
+              <a className="btn bg-[#165831] text-white mt-2 text-sm shadow-lg rounded-lg">
                 Get Approved
               </a>
             </li>

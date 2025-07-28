@@ -12,15 +12,15 @@ import PastProjects from "./Components/PastProjects/PastProjects";
 
 const App = () => {
   return (
-    <div className="space-y-2">
+    <div className="space-y-2 ">
       {/* done */}
       <Navbar></Navbar>
       {/*  */}
       {/* <Hero></Hero> */}
-      {/*  */}
+      {/* done */}
       <LoanProducts></LoanProducts>
       {/*  */}
-      {/* <Locations></Locations> */}
+      <Locations></Locations>
       {/*  */}
       {/* <ClientReviews></ClientReviews> */}
       {/*  */}
